@@ -14,4 +14,16 @@ Here is that same snippet from a Jupyter notebook.
 
 [!code-ipynb[Main](codefiles/create-workspace.ipynb?name=writeConfig)]
 
-If the two snippets are the same then we are GOOD!
+Results
+--------
+
+Both sections should display  code that looks like this:
+
+```python
+# Create the configuration file.
+ws.write_config()
+
+# Use this code to load the workspace from 
+# other scripts and notebooks in this directory.
+# ws = Workspace.from_config()
+```
