@@ -5,14 +5,14 @@ This one should work now
 ---------------------
 Here is a code snippet from a Python file.  
 
-[!code-python(codefiles/create-workspace.py?name=writeConfig)]
+[!code-python[](codefiles/create-workspace.py?name=writeConfig)]
 
 This one is what we are adding
 ---------------------
 
 Here is that same snippet from a Jupyter notebook.
 
-[!code-ipynb(codefiles/create-workspace.ipynb?name=writeConfig)]
+[!code-ipynb[](codefiles/create-workspace.ipynb?name=writeConfig)]
 
 Results
 --------
