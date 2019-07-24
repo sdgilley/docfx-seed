@@ -1,16 +1,16 @@
 Testing a code snippet
 =====================
 
-This one should work now
+This one already works
 ---------------------
-Here is a code snippet from a Python file.  
+Here is a code snippet from a Python file, which is supported today:
 
 [!code-python[](codefiles/create-workspace.py?name=writeConfig)]
 
-This one is what we are adding
+Here's our hack
 ---------------------
 
-Here is that same snippet from a Jupyter notebook.
+Here is that same snippet from a Jupyter notebook, which we added in our hack.  Note the syntax: `[!code-<language>[](<codepath>?name={tagname})]]`
 
 [!notebook-python[](codefiles/create-workspace.ipynb?name=writeConfig)]
 
