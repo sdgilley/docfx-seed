@@ -16,7 +16,7 @@ print("SDK version:", azureml.core.VERSION)
 
 Diagnostics
 --------
-[!code-ipynb[](codefiles/train-hyperparameter.ipynb?name=importCore)]
+[!code-ipynb[](codefiles/train-hyperparameter.ipynb?name=diagnostics)]
 
 Should be same as:
 ```# Check core SDK version number
