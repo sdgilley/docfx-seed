@@ -12,7 +12,7 @@ This one is what we are adding
 
 Here is that same snippet from a Jupyter notebook.
 
-[!code-ipynb[](codefiles/create-workspace.ipynb?name=writeConfig)]
+[!notebook-python[](codefiles/create-workspace.ipynb?name=writeConfig)]
 
 Results
 --------

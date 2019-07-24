@@ -4,7 +4,7 @@ More tests
 ## Imports
 ----------
 
-[!code-ipynb[](codefiles/train-hyperparameter.ipynb?name=importCore)]
+[!notebook-python[](codefiles/train-hyperparameter.ipynb?name=importCore)]
 
 Should be same as:
 ```python
@@ -16,7 +16,7 @@ print("SDK version:", azureml.core.VERSION)
 
 Diagnostics
 --------
-[!code-ipynb[](codefiles/train-hyperparameter.ipynb?name=diagnostics)]
+[!notebook-python[](codefiles/train-hyperparameter.ipynb?name=diagnostics)]
 
 Should be same as:
 ```
@@ -27,7 +27,7 @@ set_diagnostics_collection(send_diagnostics=True)
 
 Initialize
 ------------
-[!code-ipynb[](codefiles/train-hyperparameter.ipynb?name=initialize)]
+[!notebook-python[](codefiles/train-hyperparameter.ipynb?name=initialize)]
 
 Should be same as:
 ```python
@@ -43,7 +43,7 @@ print('Workspace name: ' + ws.name,
 Create compute
 ------------
 
-[!code-ipynb[](codefiles/train-hyperparameter.ipynb?name=create_compute)]
+[!notebook-python[](codefiles/train-hyperparameter.ipynb?name=create_compute)]
 
 Should be same as:
 ```python
@@ -73,7 +73,7 @@ print(compute_target.get_status().serialize())
 Duplicate name
 ------------
 
-[!code-ipynb[](codefiles/train-hyperparameter.ipynb?name=duplicate)]
+[!notebook-python[](codefiles/train-hyperparameter.ipynb?name=duplicate)]
 
 > [!IMPORTANT]
 > Should give an error, the name is not unique in the notebook file.
@@ -81,7 +81,7 @@ Duplicate name
 Name not found
 -----
 
-[!code-ipynb[](codefiles/train-hyperparameter.ipynb?name=blah)]
+[!notebook-python[](codefiles/train-hyperparameter.ipynb?name=blah)]
 
 > [!IMPORTANT]
 > Should give an error, the name is not present in the notebook file.
