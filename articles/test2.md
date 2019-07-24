@@ -19,10 +19,10 @@ Diagnostics
 [!code-ipynb[](codefiles/train-hyperparameter.ipynb?name=diagnostics)]
 
 Should be same as:
-```# Check core SDK version number
-import azureml.core
+```
+from azureml.telemetry import set_diagnostics_collection
 
-print("SDK version:", azureml.core.VERSION)
+set_diagnostics_collection(send_diagnostics=True)
 ```
 
 Initialize
