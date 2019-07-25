@@ -10,7 +10,7 @@ Here is a code snippet from a Python file, which is supported today:
 Here's our hack
 ---------------------
 
-Here is that same snippet from a Jupyter notebook, which we added in our hack.  Note the syntax: `[!code-<language>[](<codepath>?name={tagname})]]`
+Here is that same snippet from a Jupyter notebook, which we added in our hack.  Note the syntax: `[!notebook-<language>[](<codepath>?name={tagname})]]`
 
 [!notebook-python[](codefiles/create-workspace.ipynb?name=writeConfig)]
 
